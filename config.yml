@@ -1,0 +1,7 @@
+web3:
+  provider: "http://localhost:8545"
+  destAddress: "0xf12939626b7e5AF440fd179F21cdAa48461d9210"
+txs:
+  durationMS: 300000 # 5 minutes in milliseconds
+  intervalMS: 1000 # 1 second interval for 100 tx per second
+  batchSize: 100 # 100 tx per batch
